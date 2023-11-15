@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="margins">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+    <style name="required">
+        <item name="android:textColor">@color/required</item>
+    </style>
+
+    <style name="title" parent="@style/margins">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="productName" parent="@style/margins">
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="label" parent="@style/margins">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="productPrice" parent="@style/margins">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/price</item>
+    </style>
+    <style name="productCode" parent="@style/margins">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textColor">@color/code</item>
+    </style>
+    <style name="orderUserDataLabel" parent="@style/margins">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/code</item>
+    </style>
+    <style name="orderUserDataRequiredLabel" parent="@style/orderUserDataLabel">
+        <item name="android:textColor">@color/required</item>
+    </style>
+</resources>

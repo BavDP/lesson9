@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Смарт-годинник Samsung Galaxy Watch6 40mm Gold",
+    "price": 11999,
+    "rating": 4.9,
+    "id": "2552215"
+  }, {
+    "name": "Смарт-годинник Samsung Galaxy Watch6 Classic 47mm Black",
+    "price": 13999,
+    "rating": 5,
+    "id": "2550811"
+}, {
+    "name": "Смарт-годинник Samsung Galaxy Watch 5 Pro 45mm Black Titanium",
+    "price": 17999,
+    "rating": 4.6,
+    "id": "2118714"
+}, {
+    "name": "Смарт-годинник Samsung Galaxy Watch6 Classic 47mm Silver",
+    "price": 13999,
+    "rating": 5,
+    "id": "2550812"
+}
+]

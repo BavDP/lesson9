@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Смартфон Samsung Galaxy A24 6/128Gb Black",
+    "price": 8999,
+    "rating": 4.8,
+    "id": "2433874"
+  }, {
+    "name": "Смартфон Samsung Galaxy M34 5G 8/128Gb Blue",
+    "price": 12999,
+    "rating": 4.7,
+    "id": "2635828"
+  }, {
+    "name": "Смартфон Samsung Galaxy S21FE 8/256Gb Gray",
+    "price": 20999,
+    "rating": 4.9,
+    "id": "2113762"
+  }, {
+    "name": "Смартфон Samsung Galaxy A54 5G 8/256Gb Awesome Graphite",
+    "price": 18699,
+    "rating": 4.8,
+    "id": "2369865"
+  }
+]

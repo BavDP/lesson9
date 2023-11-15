@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Ноутбук ігровий Lenovo IdeaPad Gaming 3 15ARH7",
+    "price": 33999,
+    "rating": 4.3,
+    "id": "2697226"
+  }, {
+  "name": "Ноутбук Acer Aspire 3 A315-24P",
+  "price": 21999,
+  "rating": 4.85,
+  "id": "2427169"
+}, {
+  "name": "Ноутбук Lenovo IdeaPad 1 15ALC7",
+  "price": 18999,
+  "rating": 4.1,
+  "id": "2492578"
+}, {
+  "name": "Ноутбук HP Laptop 15s-eq2059ua",
+  "price": 21999,
+  "rating": 3.2,
+  "id": "1973931"
+}
+]

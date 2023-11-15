@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Магазин техніки</string>
+    <string name="orderButton">Замовити</string>
+    <string name="orderTitle">Замовлення товару</string>
+    <string name="userName">Ваше ім`я</string>
+    <string name="userLastName">Ваше прізвище</string>
+    <string name="userPhone">Номер телефону</string>
+    <string name="userEmail">Email</string>
+    <string name="price">Ціна: %1$s грн</string>
+    <string name="productCode">Код товара: %1$s</string>
+    <string name="confirmOrder">Підтвердження замовлення</string>
+    <string name="confirmOrderButton">Підтвердити замовлення</string>
+    <string name="confirmCheckPersonData">Перевірте свої дані</string>
+    <string name="remainTime">Залишилось часу: %1d</string>
+</resources>

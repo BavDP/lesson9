@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderActivity">
+
+    <TextView
+        android:id="@+id/orderTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/orderTitle"
+        style="@style/title"
+        app:layout_constraintTop_toBottomOf="@id/orderProductName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/orderProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/orderTitle"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/productName"
+         />
+
+    <TextView
+        android:id="@+id/orderProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/productPrice"
+        app:layout_constraintTop_toBottomOf="@id/orderProductName"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/productPrice"
+        app:layout_constraintTop_toBottomOf="@id/orderProductPrice"
+        app:layout_constraintLeft_toLeftOf="parent"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        app:layout_constraintTop_toBottomOf="@id/timer"
+        app:layout_constraintBottom_toBottomOf="parent"
+        style="@style/margins"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <com.example.myapplication.ui.RequiredTextView
+                android:id="@+id/userNameLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/orderUserDataRequiredLabel"
+                android:labelFor="@id/userName"
+                android:text="@string/userName" />
+
+            <EditText
+                android:id="@+id/userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/margins"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:autofillHints="username" />
+
+            <com.example.myapplication.ui.RequiredTextView
+                android:id="@+id/userLastNameLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/orderUserDataRequiredLabel"
+                android:labelFor="@id/userLastName"
+                android:text="@string/userLastName" />
+
+            <EditText
+                android:id="@+id/userLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/margins"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:autofillHints="userLastName" />
+
+            <com.example.myapplication.ui.RequiredTextView
+                android:id="@+id/userEmailLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/orderUserDataRequiredLabel"
+                android:labelFor="@id/userPhone"
+                android:text="@string/userPhone" />
+
+            <EditText
+                android:id="@+id/userPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/margins"
+                android:layout_marginTop="5dp"
+                android:inputType="phone"
+                android:autofillHints="userPhone" />
+
+            <TextView
+                android:id="@+id/userPhoneLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/orderUserDataLabel"
+                android:labelFor="@id/userEmail"
+                android:text="@string/userEmail" />
+
+            <EditText
+                android:id="@+id/userEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/margins"
+                android:layout_marginTop="5dp"
+                android:autofillHints="userEmail" />
+
+            <Button
+                android:id="@+id/doOrderButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/orderButton" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

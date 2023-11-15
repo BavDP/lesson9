@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="category" type="id"></item>
+    <item name="orderButtonUserData" type="id"></item>
+    <item name="orderButtonOrder" type="id"></item>
+</resources>

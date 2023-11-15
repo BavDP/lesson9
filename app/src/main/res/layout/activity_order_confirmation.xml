@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderConfirmationActivity">
+
+    <TextView
+        android:id="@+id/orderConfirmTitle"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:text="@string/confirmOrder"
+        style="@style/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/orderConfirmTitle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/confirmProductName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/orderTitle"
+            app:layout_constraintLeft_toLeftOf="parent"
+            style="@style/productName"
+            tools:text="productName"
+            />
+
+        <TextView
+            android:id="@+id/confirmProductPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/productPrice"
+            tools:text="productPrice"
+            app:layout_constraintTop_toBottomOf="@id/orderProductName"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/checkPersonDataLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/margins"
+            android:text="@string/confirmCheckPersonData" />
+
+        <TextView
+            android:id="@+id/confirmUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/label"
+            tools:text="userName" />
+        <TextView
+            android:id="@+id/confirmUserLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/margins"
+            tools:text="userLastName" />
+        <TextView
+            android:id="@+id/confirmUserPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/margins"
+            tools:text="userPhone" />
+        <TextView
+            android:id="@+id/confirmUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/margins"
+            tools:text="userEmail" />
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmOrderButton"
+            style="@style/margins"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
